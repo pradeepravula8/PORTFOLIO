@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravula Pradeep - Software Developer</title>
+    <meta name="description" content="Full-Stack Developer | AI & Web Enthusiast | Building the Future with Code">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">PR</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="glow-text">Pradeep Ravula</span>
+                </h1>
+                <p class="hero-tagline">
+                    Full-Stack Developer | AI & Web Enthusiast | Building the Future with Code
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                        <span>Explore Projects</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        <span>Contact Me</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Hi, I'm Pradeep, a passionate full-stack developer with a focus on building intelligent, scalable, and futuristic applications. I enjoy working across the stack — from backend systems to AI-driven models and dynamic web experiences.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="Java">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-card" data-skill="Python">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-card" data-skill="Spring Boot">
+                        <div class="skill-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <span class="skill-name">Spring Boot</span>
+                    </div>
+                    <div class="skill-card" data-skill="React">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <span class="skill-name">React</span>
+                    </div>
+                    <div class="skill-card" data-skill="SQL">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <span class="skill-name">SQL</span>
+                    </div>
+                    <div class="skill-card" data-skill="HTML/CSS/JS">
+                        <div class="skill-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <span class="skill-name">HTML/CSS/JS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">Computer Science and Engineering</h3>
+                            <span class="education-year">2026</span>
+                        </div>
+                        <h4 class="education-institution">RMD Engineering College</h4>
+                        <p class="education-location">Chennai, Tamil Nadu</p>
+                        <div class="education-details">
+                            <div class="education-percentage">
+                                <span class="percentage-label">Current CGPA:</span>
+                                <span class="percentage-value">7.98</span>
+                            </div>
+                            <div class="education-status">
+                                <span class="status-badge">Final Year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">Board of Intermediate (12th Standard)</h3>
+                            <span class="education-year">2022</span>
+                        </div>
+                        <h4 class="education-institution">Sri Viveka Junior College</h4>
+                        <p class="education-location">Kandukur, Andhra Pradesh</p>
+                        <div class="education-details">
+                            <div class="education-percentage">
+                                <span class="percentage-label">Percentage:</span>
+                                <span class="percentage-value">87% (8.71 CGPA)</span>
+                            </div>
+                            <div class="education-status">
+                                <span class="status-badge">Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">Secondary Education (10th Standard)</h3>
+                            <span class="education-year">2020</span>
+                        </div>
+                        <h4 class="education-institution">Oxford English Medium High School</h4>
+                        <p class="education-location">Guntur, Andhra Pradesh</p>
+                        <div class="education-details">
+                            <div class="education-percentage">
+                                <span class="percentage-label">Percentage:</span>
+                                <span class="percentage-value">100%</span>
+                            </div>
+                            <div class="education-status">
+                                <span class="status-badge">Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            
+            <!-- Dynamic achievements display -->
+            <div class="achievements-grid" id="achievementsGrid">
+                <!-- Achievements will be loaded here automatically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="imdb-sentiment">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>NLP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">IMDB Sentiment Analysis</h3>
+                        <p class="project-description">
+                            Built a CNN-based deep learning model to classify IMDB movie reviews into positive/negative.
+                        </p>
+                        <div class="project-features">
+                            <span>Text preprocessing</span>
+                            <span>Word embeddings</span>
+                            <span>Sentiment prediction</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openProjectModal('imdb-sentiment')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="pet-classification">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>PyTorch</span>
+                                <span>Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pet Face Classification</h3>
+                        <p class="project-description">
+                            Classified pet images into types and emotions using ResNet50.
+                        </p>
+                        <div class="project-features">
+                            <span>Dataset structure</span>
+                            <span>Emotion detection</span>
+                            <span>Results filtering</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openProjectModal('pet-classification')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="shopeasy">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ShopEasy – E-commerce</h3>
+                        <p class="project-description">
+                            A simple e-commerce app with product fetching via API, filtering, and pagination.
+                        </p>
+                        <div class="project-features">
+                            <span>Product listing</span>
+                            <span>API integration</span>
+                            <span>User authentication</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openProjectModal('shopeasy')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="text-to-speech">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Web Speech API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Text-to-Speech Converter</h3>
+                        <p class="project-description">
+                            Converts user-input text into speech using the Web Speech API.
+                        </p>
+                        <div class="project-features">
+                            <span>Natural speech</span>
+                            <span>Responsive UI</span>
+                            <span>Accessibility</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openProjectModal('text-to-speech')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="snake-game">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Game Logic</span>
+                                <span>Score Tracking</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Snake Game</h3>
+                        <p class="project-description">
+                            A fun snake game built in Python with classic controls and score tracking.
+                        </p>
+                        <div class="project-features">
+                            <span>Classic gameplay</span>
+                            <span>Score system</span>
+                            <span>Replayable</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openProjectModal('snake-game')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card" data-blog="imdb-sentiment">
+                    <div class="blog-header">
+                        <h3 class="blog-title">Building a Sentiment Analyzer with TensorFlow</h3>
+                        <div class="blog-meta">
+                            <span class="blog-category">AI/ML</span>
+                            <span class="blog-date">2024</span>
+                        </div>
+                    </div>
+                    <p class="blog-excerpt">
+                        Exploring the world of sentiment analysis and building a CNN model that can predict IMDB review sentiments with impressive accuracy.
+                    </p>
+                    <button class="btn btn-outline" onclick="openBlogModal('imdb-sentiment')">
+                        Read More
+                    </button>
+                </article>
+
+                <article class="blog-card" data-blog="pet-classification">
+                    <div class="blog-header">
+                        <h3 class="blog-title">Classifying Pet Faces with AI</h3>
+                        <div class="blog-meta">
+                            <span class="blog-category">Computer Vision</span>
+                            <span class="blog-date">2024</span>
+                        </div>
+                    </div>
+                    <p class="blog-excerpt">
+                        Using ResNet50 and PyTorch to identify pet types and emotions from images, with insights into dataset challenges and solutions.
+                    </p>
+                    <button class="btn btn-outline" onclick="openBlogModal('pet-classification')">
+                        Read More
+                    </button>
+                </article>
+
+                <article class="blog-card" data-blog="shopeasy">
+                    <div class="blog-header">
+                        <h3 class="blog-title">ShopEasy – A Simple E-Commerce with API Data</h3>
+                        <div class="blog-meta">
+                            <span class="blog-category">Web Development</span>
+                            <span class="blog-date">2024</span>
+                        </div>
+                    </div>
+                    <p class="blog-excerpt">
+                        Building a lightweight e-commerce solution without a database, focusing on API integration and user experience.
+                    </p>
+                    <button class="btn btn-outline" onclick="openBlogModal('shopeasy')">
+                        Read More
+                    </button>
+                </article>
+
+                <article class="blog-card" data-blog="text-to-speech">
+                    <div class="blog-header">
+                        <h3 class="blog-title">From Text to Voice – My Web Speech API Project</h3>
+                        <div class="blog-meta">
+                            <span class="blog-category">Web APIs</span>
+                            <span class="blog-date">2024</span>
+                        </div>
+                    </div>
+                    <p class="blog-excerpt">
+                        Creating an accessible text-to-speech converter using pure JavaScript and the Web Speech API for enhanced user experience.
+                    </p>
+                    <button class="btn btn-outline" onclick="openBlogModal('text-to-speech')">
+                        Read More
+                    </button>
+                </article>
+
+                <article class="blog-card" data-blog="snake-game">
+                    <div class="blog-header">
+                        <h3 class="blog-title">The Snake Game Revival in Python</h3>
+                        <div class="blog-meta">
+                            <span class="blog-category">Game Development</span>
+                            <span class="blog-date">2024</span>
+                        </div>
+                    </div>
+                    <p class="blog-excerpt">
+                        Reviving the classic Snake game with Python, exploring game mechanics and creating a replayable, addictive experience.
+                    </p>
+                    <button class="btn btn-outline" onclick="openBlogModal('snake-game')">
+                        Read More
+                    </button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-card">
+                <p class="resume-note">View or download my latest resume. For updates, admin access is required.</p>
+                <div class="resume-actions">
+                    <button class="btn btn-primary" onclick="openResumeModal('assets/resume.pdf')">
+                        <span><i class="fas fa-eye" style="margin-right:8px;"></i>View Resume</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <a class="btn btn-secondary" href="assets/resume.pdf" download>
+                        <span><i class="fas fa-download" style="margin-right:8px;"></i>Download PDF</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                </div>
+                <div class="resume-upload admin-only">
+                    <label for="resumeFile" class="upload-label">
+                        <i class="fas fa-file-upload"></i>
+                        <span>Upload PDF (admin only, local preview)</span>
+                    </label>
+                    <input type="file" id="resumeFile" accept="application/pdf" style="display:none;">
+                    <button type="button" class="btn btn-outline" id="deleteResumeBtn">
+                        <span><i class="fas fa-trash" style="margin-right:8px;"></i>Delete Resume (admin)</span>
+                    </button>
+                </div>
+                <p class="admin-only" style="color: var(--text-secondary); margin-top: 0.75rem; font-size: 0.9rem;">Press Ctrl+Alt+R to enter admin mode and manage the resume.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ravulapradeep8@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 6303891189</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/pradeepravula8" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pradeep-ravula-816712271/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:ravulapradeep8@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://x.com/RavulaPrad56513" class="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Pradeep Ravula | Crafted with Code & Vision</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="projectModalContent"></div>
+        </div>
+    </div>
+
+    <!-- Blog Modal -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="blogModalContent"></div>
+        </div>
+    </div>
+
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="resumeModalContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
